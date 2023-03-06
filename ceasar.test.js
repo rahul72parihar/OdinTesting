@@ -1,5 +1,5 @@
 import { cypher } from "./ceasar";
 
-test("3 + 6 to equal 9", () => {
+test("Ceasar Rahul Parihar By +5", () => {
   expect(cypher("Rahul Parihar")).toEqual("Wfmzq Ufwnmfw");
 });
