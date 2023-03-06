@@ -1,7 +1,13 @@
 import { capitalize } from "./capitalize.js";
 
-test("adds 1 + 2 to equal 3", () => {
+test("rahul -> Rahul", () => {
   expect(capitalize("rahul")).toBe("Rahul");
-  expect(capitalize("rahul Parihar")).toBe("Rahul Parihar");
+});
+
+test("rahul Parihar -> rahul Parihar", () => {
+  expect(capitalize("rahul Parihar")).toBe("rahul Parihar");
+});
+
+test("' parihar' -> ' parihar", () => {
   expect(capitalize(" parihar")).toBe(" parihar");
 });
